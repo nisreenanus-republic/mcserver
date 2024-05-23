@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "69ec5b15-7002-4d8c-83c8-5a45e84f17c6",
+    "name": "Asa",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "e215ad47-b91e-4b9c-ac4f-8c4936255f6c",
+    "name": "oo2core8win64",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "dd6c8a13-c361-4a1d-85e7-3dc83777fd2d",
+    "name": "NadeemSF",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "683aad88-b2ea-4f72-81d0-270139fce815",
+    "name": "AsadBGF",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
