@@ -1,0 +1,81 @@
+[08:28:29] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[08:28:30] [Worker-Main-1/ERROR]: Couldn't load tag skyblock:template as it is missing following references: minecraft: (from file/Skyblock_Infinite_1.0.3.zip)
+[08:28:31] [ServerMain/INFO]: Loaded 7 recipes
+[08:28:31] [ServerMain/ERROR]: Failed to load function skyblock:update/fill_air
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Unknown block type 'minecraft:grass' at position 76: ...r replace <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Unknown block type 'minecraft:grass' at position 76: ...r replace <--[HERE]
+	at hb.a(SourceFile:76) ~[server-1.20.4.jar:?]
+	at aht.a(SourceFile:83) ~[server-1.20.4.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[08:28:31] [ServerMain/ERROR]: Couldn't load advancements: [skyblock:nether/charge_respawn_anchor, skyblock:nether/obtain_crying_obsidian, skyblock:nether/quartz]
+[08:28:31] [ServerMain/INFO]: Loaded 1444 advancements
+[08:28:32] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[08:28:32] [Server thread/INFO]: Loading properties
+[08:28:32] [Server thread/INFO]: Default game type: SURVIVAL
+[08:28:32] [Server thread/INFO]: Generating keypair
+[08:28:32] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:28:32] [Server thread/INFO]: Using epoll channel type
+[08:28:32] [Server thread/INFO]: Preparing level "world"
+[08:28:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[08:28:35] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[08:28:35] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[08:28:35] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[08:28:36] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:28:36] [Worker-Main-1/INFO]: Preparing spawn area: 5%
+[08:28:37] [Worker-Main-1/INFO]: Preparing spawn area: 19%
+[08:28:37] [Worker-Main-3/INFO]: Preparing spawn area: 83%
+[08:28:37] [Server thread/INFO]: Time elapsed: 3114 ms
+[08:28:37] [Server thread/INFO]: Done (5.396s)! For help, type "help"
+[08:29:09] [User Authenticator #1/INFO]: UUID of player AsadBGF is 683aad88-b2ea-4f72-81d0-270139fce815
+[08:29:10] [Server thread/INFO]: AsadBGF[/127.48.164.149:46981] logged in with entity id 85 at (8.437831261334063, 62.0, -9.186222129167625)
+[08:29:10] [Server thread/INFO]: AsadBGF joined the game
+[08:33:32] [Server thread/INFO]: AsadBGF fell out of the world
+[08:36:44] [Server thread/INFO]: AsadBGF was slain by Zombified Piglin
+[08:37:29] [Server thread/INFO]: AsadBGF was slain by Zombified Piglin
+[08:38:46] [User Authenticator #2/INFO]: UUID of player NadeemSF is dd6c8a13-c361-4a1d-85e7-3dc83777fd2d
+[08:38:46] [Server thread/INFO]: NadeemSF[/127.185.100.6:40705] logged in with entity id 690 at (9.686417701973157, 63.5, -8.731677457397504)
+[08:38:46] [Server thread/INFO]: NadeemSF joined the game
+[08:39:08] [User Authenticator #3/INFO]: UUID of player BestGamer_825 is 6dcacaf6-8adb-4d6d-913c-ec8e46763bbc
+[08:39:09] [Server thread/INFO]: BestGamer_825[/127.169.230.121:60743] logged in with entity id 694 at (5.367425694598572, 62.0, -7.577558173050987)
+[08:39:09] [Server thread/INFO]: BestGamer_825 joined the game
+[08:39:15] [Server thread/INFO]: <BestGamer_825> ttt
+[08:39:40] [Server thread/INFO]: <BestGamer_825> join vc
+[08:39:49] [Server thread/INFO]: <BestGamer_825> +give me some cs
+[08:39:56] [Server thread/INFO]: <BestGamer_825> cobble stone
+[08:49:00] [Server thread/INFO]: AsadBGF lost connection: Disconnected
+[08:49:00] [Server thread/INFO]: AsadBGF left the game
+[08:50:24] [Server thread/INFO]: BestGamer_825 lost connection: Disconnected
+[08:50:24] [Server thread/INFO]: BestGamer_825 left the game
+[08:53:34] [Server thread/INFO]: NadeemSF has made the advancement [A Seedy Place]
+[08:55:57] [Server thread/INFO]: NadeemSF has made the advancement [Wheat Farmer]
+[08:57:44] [User Authenticator #4/INFO]: UUID of player BestGamer_825 is 6dcacaf6-8adb-4d6d-913c-ec8e46763bbc
+[08:57:44] [Server thread/INFO]: BestGamer_825[/127.169.230.121:39601] logged in with entity id 2034 at (10.081388465904984, 62.0, -2.203878706726456)
+[08:57:44] [Server thread/INFO]: BestGamer_825 joined the game
+[08:58:02] [User Authenticator #5/INFO]: UUID of player AsadBGF is 683aad88-b2ea-4f72-81d0-270139fce815
+[08:58:03] [Server thread/INFO]: AsadBGF[/127.48.164.149:35239] logged in with entity id 2143 at (1.5889660228883902, 62.7967356006687, 0.12640321811086283)
+[08:58:03] [Server thread/INFO]: AsadBGF joined the game
+[09:22:26] [Server thread/INFO]: Stopping the server
+[09:22:27] [Server thread/INFO]: Stopping server
+[09:22:27] [Server thread/INFO]: Saving players
+[09:22:27] [Server thread/INFO]: NadeemSF lost connection: Server closed
+[09:22:27] [Server thread/INFO]: NadeemSF left the game
+[09:22:27] [Server thread/INFO]: AsadBGF lost connection: Server closed
+[09:22:27] [Server thread/INFO]: AsadBGF left the game
+[09:22:27] [Server thread/INFO]: Saving worlds
+[09:22:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Skyblock 4.12.1]'/minecraft:overworld
+[09:22:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Skyblock 4.12.1]'/minecraft:the_nether
+[09:22:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Skyblock 4.12.1]'/minecraft:the_end
+[09:22:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09:22:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09:22:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:22:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
